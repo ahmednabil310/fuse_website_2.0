@@ -1,4 +1,5 @@
 import React from 'react'
+import { FormattedMessage } from 'react-intl'
 import aleph from '@/assets/images/aleph.png'
 import collider from '@/assets/images/collider.png'
 import spark from '@/assets/images/spark.png'
@@ -28,7 +29,7 @@ const SectionFour = () => {
     <section className='section_four'>
       <div className='grid-container'>
         <div className='section_four__wrapper'>
-          <h2 className='title'>Partners and Backers</h2>
+          <h2 className='title'><FormattedMessage defaultMessage='Partners and Backers' /></h2>
           <div className='logos cell large-auto grid-x align-justify align-middle'>
             <ImageCell image={collider} />
             <ImageCell image={wolfedge} />
